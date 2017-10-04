@@ -9,7 +9,7 @@ kids_data.each_line do |kid|
 
   name     = kid_data_array[0]
   gender   = kid_data_array[1]
-  behavior = kid_data_array[2]
+  infraction = kid_data_array[2]
   toys     = kid_data_array[3..8]
 
   next unless behavior == 'nice'
